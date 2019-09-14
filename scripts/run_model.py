@@ -10,6 +10,7 @@ import random
 import shutil
 import sys
 import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 import torch
 from torch.autograd import Variable
